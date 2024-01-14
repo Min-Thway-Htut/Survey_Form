@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <h1 id="title">GISMA University of Applied Sciences</h1>
+    <p id="title">Fill out this form with your experiences and opinions on the module</p>
+    <form id="survey-form" method="POST" action="https://formsubmit.co/minthwayhtut568@gmail.com">
+    <fieldset>
+      <label for="name-label">Name: <input id="name-label" type="text" name="full-name" placeholder="Enter your name " required></label>
+    </fieldset>
+
+
+    <fieldset>
+      <label for="email">Student-email <input id="email-label" type="email" name="email" placeholder="Enter your email" required></label>
+    </fieldset>
+
+
+    <fieldset>
+      <label for="number">Student-number: <input id="number-label" type="number" name="number" min="1000" max="9999" placeholder="Student number" required></label>
+    </fieldset>
+    </fieldset>
+
+
+    <fieldset>
+      <label for="dropdown">Your Program:<select id="dropdown" name="referrer"  required>
+      <option value="">Select your program</option>
+      <option value="1">BSc Data Science, AI, and Digital Business</option>
+      <option value="2">BSc International Business Management</option>
+      <option value="3">BEng Software Engineering</option>
+      <option value="4">Foundation Programme</option>
+      <option value="5">BSc Computer Science</option>
+      <option value="6">BSc Business Management</option>
+      </select>
+      </label>
+    </fieldset>
+
+    <fieldset><legend><ol><li>On a scale of 1 to 10, how satisfied are you with the content covered in this module?</li></ol></legend>
+    <label for="level-1"><input type="radio" name="account-type" />1(Not satisfied at all)</label>
+    <label for="level-5"><input type="radio" name="account-type" />5 (Neutral)</label>
+    <label for="level-10"><input type="radio" name="account-type" />10 (Very satisfied)
+    <label for="opinion"><textarea id="opinion" rows="6" cols="40" placeholder="If you have something to say, provide it in this section" name="bio"></textarea>
+    </label>
+    </fieldset>
+ 
+<input type="submit" value="Submit" /> 
+</form>
+  
+
+  
+
+ 
+
+
+    
+ 
+  </head>

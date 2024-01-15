@@ -10,8 +10,8 @@ body{
     margin: 1em auto;
     text-align: center;
     background-color: #09223c;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-size: 45px;
   }
   
@@ -25,7 +25,7 @@ body{
      display: block;
      margin: 0.5rem 0;
      color: #09223c;
-     margin-left: auto;
+     margin-left: 25px;
      margin-right: auto;
      font-size: 30px;;
   }
@@ -40,7 +40,7 @@ body{
     padding-bottom: 1px;
     padding-right: 0;
     padding-left: 0;
-    border-bottom: 15px solid #CDDC28 ;
+    border-bottom: 15px solid #09223c ;
     border: none;
     margin: 1em auto;
   }
@@ -49,6 +49,7 @@ body{
   input{
     text-align:center;
     font-size: 30px;
+  
   }
 
   option{
@@ -91,3 +92,16 @@ option[type="dropdrown"]{
     margin-right: 20px;
     margin-bottom: 20px;
   }
+
+  li{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    color: #09223c;
+    font-size: 30px;
+  }
+
+hr{
+  color:black;
+  margin-top: 25px;
+}

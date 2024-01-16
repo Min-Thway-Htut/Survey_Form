@@ -13,7 +13,7 @@
 
 
     <fieldset>
-      <label for="email">Student-email <input id="email-label" type="email" name="email" placeholder="Enter your email" required></label>
+      <label for="email">Student-email: <input id="email-label" type="email" name="email" placeholder="Enter your email" required></label>
     </fieldset>
 
 
@@ -35,47 +35,56 @@
       </select>
       </label>
     </fieldset>
-    <hr>
-    <fieldset>
+ 
+    <fieldset id="questions">
         <legend>1. On a scale of 1 to 10, how satisfied are you with the content covered in this module?</legend>
     <label for="level-1"><input type="radio" name="account-type" class="checkbox" />1(Not satisfied at all)</label>
     <label for="level-5"><input type="radio" name="account-type" class="checkbox"  />5 (Neutral)</label>
     <label for="level-10"><input type="radio" name="account-type" class="checkbox" />10 (Very satisfied)
     </fieldset>
-    <hr>
-    <fieldset>
+ 
+    <fieldset id="questions">
       <legend>2. How would you rate the quality of the courses you took this quarter?</legend>
     <label for="poor"><input type="radio" name="course-quality" class="checkbox" />Poor</label>
     <label for="fair"><input type="radio" name="course-quality" class="checkbox" />Fair</label>
     <label for="excellent"><input type="radio" name="course-quality" class="checkbox" />Excellent</label>
     </fieldset>
-    <hr>
+    
+    <fieldset id="questions">
     <legend>3. How would you rate the effectiveness and engagement of your instructors this quarter?</legend>
     <label for="ineffective"><input type="radio" name="instructor-engagement" class="checkbox"/>Ineffective</label>
     <label for="effective"><input type="radio" name="instructor-engagement" class="checkbox" />Effective</label>
     <label for="very-effective"><input type="radio" name="instructor-engagement" class="checkbox" />Very effective</label>
-    <hr>
+    </fieldset>
+
+    <fieldset id="questions">
     <legend>4. How satisfied are you with the university's facilities (libraries, labs, recreational areas, etc.) this quarter?</legend>
     <label for="dissatisfied"><input type="radio" name="facilities" class="checkbox" />Dissatisfied</label>
     <label for="neutral"><input type="radio" name="facilities" class="checkbox" />Neutral</label>
     <label for="satisfied"><input type="radio" name="facilities" class="checkbox" />Satisfied</label>
-    <hr>
+    </fieldset>
+     
+    <fieldset id="questions">
     <legend>5. How satisfied are you with the university's communication regarding important updates and announcements?</legend>
     <label for="dissatisfied"><input type="radio" name="updates-and-announcements" class="checkbox" />Dissatisfied</label>
     <label for="neutral"><input type="radio" name="updates-and-announcements" class="checkbox" />Neutral</label>
     <label for="satisfied"><input type="radio" name="updates-and-announcements" class="checkbox" />Satisfied</label>
-    <hr>
+    </fieldset>
+
+    <fieldset id="questions">
     <legend>6. How satisfied are you with the availability and variety of extracurricular activities on campus this quarter?</legend>
     <label for="dissatisfied"><input type="radio" name="campus-activities" class="checkbox" />Dissatisfied</label>
     <label for="neutral"><input type="radio" name="campus-activities" class="checkbox" />Neutral</label>
     <label for="satisfied"><input type="radio" name="campus-activities" class="checkbox" />Satisfied</label>
-    <hr>
+    </fieldset>
   </ol>
     <label for="opinion"><textarea id="opinion" rows="6" cols="40" placeholder="If you have something to say, provide it in this section" name="bio"></textarea>
     </label>
     </fieldset>
  
 <input type="submit" value="Submit" /> 
+<h3>Thanks for your cooperation!</h3>
+<h4>Developed by Min Thway Htut(2024)</h4>
 </form>
   
 

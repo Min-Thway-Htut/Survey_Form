@@ -4,7 +4,9 @@ body{
     margin: 0;
     background-color:#CDDC28;
     color:#ffffff;
-    font-family:Verdana;}
+    font-family:Verdana;
+    }
+    
   
   h1{
     margin: 1em auto;
@@ -12,24 +14,46 @@ body{
     background-color: #09223c;
     padding-top: 60px;
     padding-bottom: 60px;
-    font-size: 45px;
+    font-size: 60px;
+  }
+
+  h3{
+    margin: 1em auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 55px;
+    color:#09223c;
+  }
+
+  h4{
+    margin:1em auto;
+    background-color: #09223c;
+    font-size: 150px solid;
+    text-align: center;
+    font-family: Verdana;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   
   p{
     text-align: center;
     color: #09223c;
-    font-size: 30px;
+    font-size: 42px;
   }
   
-  label{
+  label, option{
      display: block;
      margin: 0.5rem 0;
      color: #09223c;
      margin-left: 25px;
      margin-right: auto;
-     font-size: 30px;;
+     font-size: 30px;
   }
   
+  select{
+    font-size: 30px;
+  }
   
   
   
@@ -40,10 +64,12 @@ body{
     padding-bottom: 1px;
     padding-right: 0;
     padding-left: 0;
-    border-bottom: 15px solid #09223c ;
+    margin: 2em auto;
     border: none;
-    margin: 1em auto;
   }
+  
+  
+  
   
   
   input{
@@ -52,32 +78,30 @@ body{
   
   }
 
-  option{
-    font-size: 30px;
-  }
-
 option[type="dropdrown"]{
     font-size: 30px;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
   
   legend{
     color: #09223c;
     text-align:left;
-    font-size: 30px;;
+    font-size: 30px;
   }
   
   input[type="submit"]{
     display:block;
     font-size: 30px;
-    width:30%;
     min-width:360px;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     margin-right: auto;
     margin-left: auto;
     margin: 0 auto;
     height: 2em;
-    font-size: 1.1rem;
+    width: 3em;
+    font-size: 2rem;
     background-color: #09223c;
     color: white;
     border-color: white;
@@ -89,11 +113,14 @@ option[type="dropdrown"]{
  }
   textarea{
     padding-top: 50px;
-    width: 833px;
+    width: 2000px;
+    height:   250px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
   }
 
   li{
@@ -107,4 +134,12 @@ option[type="dropdrown"]{
 hr{
   color:black;
   margin-top: 25px;
+}
+
+::placeholder{
+  font-size: 30px;
+  text-align: center;
+  color: #09223c;
+  width: auto;
+  height: auto;
 }
